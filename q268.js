@@ -4,5 +4,4 @@ var missingNumber = function (nums) {
     var sum = nums.reduce((a, b) => a + b);
     return expectedSum - sum;
 };
-
 console.log(missingNumber([3, 0, 1]));
