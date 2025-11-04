@@ -1,4 +1,5 @@
-def isValid(self, s: str) -> bool:
+class Solution:
+    def isValid(self, s: str) -> bool:
         stack = []
         mapping = {')': '(', '}': '{', ']': '['}
 
@@ -11,3 +12,12 @@ def isValid(self, s: str) -> bool:
                 stack.append(char)
 
         return not stack
+
+
+obj = Solution()
+
+print(obj.isValid("()"))     
+print(obj.isValid("()[]{}"))    
+print(obj.isValid("(]"))       
+print(obj.isValid("([)]"))     
+print(obj.isValid("{[]}"))      
