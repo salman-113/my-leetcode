@@ -55,4 +55,3 @@ select
 from transactions
 group by to_char(trans_date, 'YYYY-MM'), country;
 
-
