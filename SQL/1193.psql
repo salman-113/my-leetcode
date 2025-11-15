@@ -59,4 +59,3 @@ group by to_char(trans_date, 'YYYY-MM'), country;
 
 
 
-
