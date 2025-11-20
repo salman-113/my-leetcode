@@ -14,4 +14,3 @@ class Solution:
 
             row.append(1)
             triangle.append(row)
-
