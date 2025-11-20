@@ -16,4 +16,3 @@ class Solution:
             triangle.append(row)
 
 
-
